@@ -1,0 +1,399 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding: 20px 20px 10px 20px;
+  margin: 0px;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+.big-heading {
+  font-size: 1.9rem;
+  line-height: 2.8rem;
+  margin-bottom: 20px;
+}
+
+/* Sections */
+.colored-section {
+  color: #fff;
+}
+
+.white-section {
+  color: hsl(243, 87%, 12%);
+}
+
+/* Header */
+header {
+  padding-top: 65px;
+  padding-bottom: 50px;
+}
+
+#nav-header {
+  float: right;
+}
+
+#nav-header ul li {
+  display: block;
+  margin-left: 60px;
+  float: left;
+}
+
+#nav-header a {
+  cursor: pointer;
+  color: hsl(238, 22%, 44%);
+}
+
+#nav-header a:hover {
+  color: hsl(243, 87%, 12%);
+  text-decoration: underline;
+}
+
+/* Introduction */
+#intro-content h1 {
+  margin-top: 80px;
+}
+
+#intro-content input[type=email] {
+  width: calc(60% - 20px);
+  height: 48px;
+  float: left;
+  margin-right: 20px;
+  padding: 10px 20px;
+  border: 1px solid hsl(238, 22%, 44%);
+  outline: none !important;
+  border-radius: 5px;
+}
+
+#intro-content button {
+  width: 35%;
+  min-height: 48px;
+  float: left;
+}
+
+/* Features */
+#features {
+  background-color: hsl(240, 75%, 98%);
+  padding-bottom: 7%;
+}
+
+.features-bg {
+  background-color: #FFF;
+  background-image: url("../images/bg-curve-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 114px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+#see-detail {
+  color: hsl(170, 45%, 43%);
+  border-bottom: 1px solid hsl(170, 45%, 43%);
+  padding-bottom: 3px;
+  cursor: pointer;
+}
+
+/* Comment content */
+.comment-content {
+  margin-top: 40px;
+  width: 70%;
+  border-radius: 10px;
+  background-color: #FFF;
+  padding: 30px;
+  box-shadow: 0px 0px 10px -4px hsl(238, 22%, 44%);
+}
+
+.comment-content .icon-quotes {
+  margin-bottom: 20px;
+}
+
+.comment-content p {
+  font-size: 0.8rem;
+}
+
+.comment-content .profile-comment {
+  table-layout: auto;
+}
+
+.profile-comment .img-avatar {
+  height: 36px;
+  width: auto;
+  border-radius: calc(100% / 2);
+  float: left;
+  margin-right: 10px;
+}
+
+.profile-comment p {
+  font-size: 0.6rem;
+  margin: 0;
+  padding: 0;
+}
+
+.profile-comment .comment-name {
+  font-weight: 700;
+}
+
+
+/* Common */
+.img-illustration {
+  float: right;
+  width: 45%;
+  height: auto;
+  margin: 35px 0;
+}
+
+.text-content {
+  width: 45%;
+}
+
+/* Get Started */
+#get-started {
+  background-color: hsl(238, 22%, 44%);
+  padding: 7% 0 7%;
+}
+
+#get-started h2 {
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+}
+
+#get-started input[type=email] {
+  width: 100%;
+  height: 48px;
+  margin-bottom: 15px;
+  padding: 20px;
+  border: 1px solid hsl(238, 22%, 44%);
+  outline: none !important;
+  border-radius: 5px;
+}
+
+#get-started button {
+  width: 45%;
+  min-height: 48px;
+}
+
+/* Footer */
+footer {
+  background-color: hsl(243, 87%, 12%);
+  padding: 7% 0 5%;
+}
+
+footer ul li {
+  margin-bottom: 20px;
+}
+
+#logo-footer {
+  margin-bottom: 20px;
+}
+
+/* Contact */
+#contact ul li {
+  background-position-x: 0;
+  background-position-y: 5px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+}
+
+li#contact-phone {
+  background-image: url("../images/icon-phone.svg");
+}
+
+li#contact-email {
+  background-image: url("../images/icon-email.svg");
+}
+
+/* Navigation link */
+.nav-link a {
+  cursor: pointer;
+}
+
+.nav-link a:hover {
+  text-decoration: underline;
+}
+
+
+/* Shared */
+#nav-shared ul {
+  overflow: auto;
+  width: 120px;
+}
+
+#nav-shared ul li {
+  display: block;
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#nav-shared a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #FFF;
+  border-radius: calc(100% / 2);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50% 50%;
+  cursor: pointer;
+}
+
+#nav-shared a:hover {
+  background-color: #FFF;
+}
+
+#share-facebook {
+  background-image: url("../images/facebook-icon.svg");
+}
+
+#share-facebook:hover {
+  background-image: url("../images/facebook-icon-hover.svg");
+}
+
+#share-twitter {
+  background-image: url("../images/twitter-icon.svg");
+}
+
+#share-twitter:hover {
+  background-image: url("../images/twitter-icon-hover.svg");
+}
+
+#share-instagram {
+  background-image: url("../images/instagram-icon.svg");
+}
+
+#share-instagram:hover {
+  background-image: url("../images/instagram-icon-hover.svg");
+}
+
+@media only screen and (max-width: 991px) {
+  /* For Mobile (max 991px) */
+
+  .big-heading {
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+  }
+
+  /* Header */
+  #logo-header {
+    height: 30px;
+  }
+
+  #nav-header ul li {
+    margin-left: 30px;
+  }
+
+  /* Introduction */
+  #introduction, #features {
+    text-align: center;
+  }
+
+  #intro-content input[type=email] {
+    width: 80%;
+    float: none;
+    margin: 20px 0 20px 0;
+    padding: 10px 20px;
+  }
+
+  #intro-content button {
+    width: 80%;
+    float: none;
+  }
+
+
+  .img-illustration {
+    width: 80%;
+    float: none;
+  }
+
+  .text-content {
+    width: 100%;
+  }
+
+  /* Features */
+  .features-bg {
+    height: 53px;
+    background-image: url("../images/bg-curve-mobile.svg");
+    margin-bottom: 30px;
+    margin-top: 80px;
+  }
+
+  /* Comment content */
+  .comment-content {
+    margin: 40px auto;
+    text-align: left;
+  }
+
+  /* Get Started */
+  #get-started {
+    text-align: center;
+  }
+
+  #get-started h2 {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+
+  #get-started input[type=email], #get-started button {
+    width: 70%;
+  }
+
+  /* FOOTER */
+  #nav-shared ul {
+    margin: 0 auto;
+  }
+}
+
+/*
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+ */
+
+/*
+
+### Primary
+
+- Very Dark Blue: hsl(243, 87%, 12%)
+- Desaturated Blue: hsl(238, 22%, 44%)
+
+### Accent
+
+- Bright Blue: hsl(224, 93%, 58%)
+- Moderate Cyan: hsl(170, 45%, 43%)
+
+### Neutral
+
+- Light Grayish Blue: hsl(240, 75%, 98%)
+- Light Gray: hsl(0, 0%, 75%)
+
+## Typography
+
+### Headings, Call-to-actions, Header Navigation
+
+- Family: [Raleway](https://fonts.google.com/specimen/Raleway)
+- Weights: 400, 700
+
+### Body
+
+- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+- Weights: 400
+ */
